@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A short description of LevelAnimation."
   s.source = { :git => 'https://github.com/472125266/LevelAnimation.git', :tag => 'v0.0.1' }   # 库的源路径和版本号
-
+  s.source_files = "ViewController.h,m"   # 源文件，这个库仅包含ViewController.h和RViewController.m文件
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -88,8 +88,6 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  s.source_files = "ViewController.h,m"   # 源文件，这个库仅包含ViewController.h和RViewController.m文件
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
