@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
   s.summary      = "A short description of LevelAnimation."
   s.homepage     = "https://github.com/472125266"
   s.license      = "MIT"                #开源协议
+  s.source = { :git => 'https://github.com/472125266/LevelAnimation.git', :tag => 'v0.0.1' }   # 库的源路径和版本号
+
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
