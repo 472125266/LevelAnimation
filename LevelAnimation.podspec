@@ -29,7 +29,6 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/472125266/LevelAnimation"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-  s.source_files = 'ViewController.h,m'   # 源文件，这个库仅包含ViewController.h和RViewController.m文件
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -90,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files = "ViewController.h,m"   # 源文件，这个库仅包含ViewController.h和RViewController.m文件
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
