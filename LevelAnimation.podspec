@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A short description of LevelAnimation."
   s.source = { :git => 'https://github.com/472125266/LevelAnimation.git', :tag => 'v0.0.1' }   # 库的源路径和版本号
-  s.source_files = "CCXG/ViewController.h"   # 源文件，这个库仅包含ViewController.h和RViewController.m文件
+  s.source_files = "CCXG/ViewController.h"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
