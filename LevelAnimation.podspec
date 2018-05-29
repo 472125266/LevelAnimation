@@ -18,8 +18,6 @@ Pod::Spec.new do |s|
   s.name         = "LevelAnimation"
   s.version      = "0.0.1"
   s.summary      = "A short description of LevelAnimation."
-  s.homepage     = "https://github.com/472125266"
-  s.license      = "MIT"                #开源协议
   s.source = { :git => 'https://github.com/472125266/LevelAnimation.git', :tag => 'v0.0.1' }   # 库的源路径和版本号
 
   # This description is used to generate tags and improve search results.
