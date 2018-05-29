@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/472125266/LevelAnimation"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
+  s.source_files = 'ViewController.h,m'   # 源文件，这个库仅包含ViewController.h和RViewController.m文件
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
